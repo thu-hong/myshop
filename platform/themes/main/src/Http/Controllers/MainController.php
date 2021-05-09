@@ -49,4 +49,24 @@ class MainController extends PublicController
     {
         return Theme::scope('pages.blog-post')->render();
     }
+    //Get Cart:
+    public function getCart(BaseHttpResponse $response)
+    {
+        return Theme::scope('pages.cart')->render();
+    }
+    //Get Contact:
+    public function getContact(BaseHttpResponse $response)
+    {
+        return Theme::scope('pages.contact-us')->render();
+    }
+    //Get product:
+    public function getProduct(BaseHttpResponse $response)
+    {
+        return Theme::scope('pages.product')->render();
+    }
+    //Get product-detail:
+    public function getProductDetail(BaseHttpResponse $response)
+    {
+        return Theme::scope('pages.product-detail')->render();
+    }
 }

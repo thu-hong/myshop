@@ -13,6 +13,18 @@ Route::group(['namespace' => 'Theme\Main\Http\Controllers', 'middleware' => 'web
         //Get Blog-post:
         Route::get('/blog-post', 'MainController@getBlogPost')
             ->name('public.blog-post');
+        //Get Cart:
+        Route::get('/cart', 'MainController@getCart')
+            ->name('public.get-cart');
+        //Get Contact:
+        Route::get('/contact', 'MainController@getContact')
+            ->name('public.get-contact');
+        //Get Product:
+        Route::get('/product', 'MainController@getProduct')
+            ->name('public.get-product');
+        //Get Product Detail:
+        Route::get('/product-detail', 'MainController@getProductDetail')
+            ->name('public.get-product-detail');
     });
 });
 
