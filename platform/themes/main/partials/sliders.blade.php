@@ -5,7 +5,7 @@
 	    <!-- slideshow photo -->
 		<div class="image-box">
 			<div class="image">
-				<img src="img/slideshow/slide1.jpg" alt="">
+				<img src="{{ Theme::asset()->url('img/slideshow/slide1.jpg') }}" alt="">
 			</div>
 		</div>
 		<!-- slideshow content -->
@@ -27,7 +27,7 @@
 	    <!-- slideshow photo -->
 	    <div class="image-box">
 			<div class="image">
-				<img src="img/slideshow/slide1.jpg" alt="">
+				<img src="{{ Theme::asset()->url('img/slideshow/slide1.jpg') }}" alt="">
 			</div>
 		</div>
 		<!-- slideshow content -->

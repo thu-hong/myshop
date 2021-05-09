@@ -75,7 +75,7 @@
    ----------------------------- */
 [class^='imghvr-reveal-']:before,
 [class*=' imghvr-reveal-']:before {
-  background: url(../img/trans.png);
+  background: url(../../../../themes/main/img/trans.png);
   position: absolute;
   top: -1px;
   bottom: 0;
