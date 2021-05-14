@@ -11,18 +11,18 @@ class MainController extends PublicController
     /**
      * {@inheritDoc}
      */
-    public function getIndex(BaseHttpResponse $response)
-    {
-        return Theme::scope('index')->render();
-    }
+    // public function getIndex(BaseHttpResponsettpResponse $response)
+    // {
+    //     return Theme::scope('index')->render();
+    // }
 
     /**
      * {@inheritDoc}
      */
-    public function getView(BaseHttpResponse $response, $key = null)
-    {
-        return parent::getView($response, $key);
-    }
+    // public function getView(BaseHttpResponse $response, $key = null)
+    // {
+    //     return parent::getView($response, $key);
+    // }
 
     /**
      * {@inheritDoc}
